@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .header h2 {
+    margin: 0;
+    color: #1a73e8;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1669c1;
+  }
+  
+  .notes textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
